@@ -33,14 +33,14 @@
 - 대출자 정보, 렌딩클럽 내부정보, 금융계좌 정보, 카드정보, 연체정보로 다섯가지 범주로 구분하였습니다.
 - 📁 데이터 상세
     
-    ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bd74c1d4-c692-4dbd-b5d5-7809164aa004/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220728T071134Z&X-Amz-Expires=86400&X-Amz-Signature=e60d221a538b6536d03df4802ca4c86b42fd9592a02da891cec3beb0e6ad44f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+    ![Untitled (1)](https://user-images.githubusercontent.com/86893209/183793641-175504e6-2ac2-4bbe-a8eb-adddfa1e6afa.png)
     
 
 ### 타겟변수의 분포가 정상 상환에 치우쳐진 불균형한 데이터라는 것을 확인
 
 - 다음으로 모델검정을 위해 2020년 데이터를 테스트세트를 지정하였습니다. 나누어진 데이터의 범주를 묶거나 타입을 변형하는 방법으로 전처리를 진행하였습니다.
 
-![0: 정상 1: 불량](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2f7343e6-50d4-481c-9b34-afec802823ee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220728T071108Z&X-Amz-Expires=86400&X-Amz-Signature=f62be04462f93de9e22ea2ef90e14f887fe338ad6dde7b98b1d627218d0d4aba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled (2)](https://user-images.githubusercontent.com/86893209/183793700-4fb97b82-2fdc-4b27-a337-8ca725e4ef45.png)
 
 0: 정상 1: 불량
 
@@ -53,12 +53,11 @@
 ### 평가지표로 Accuracy, Precision, Recall, F1_Score 사용
 ### SMOTE를 이용한 Oversampling
 
-![(전) 정상 라벨의 수: 124437, 불량 라벨의 수: 4420](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eeeb6fc5-66bf-479e-93e9-428755b3ff61/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220728T071054Z&X-Amz-Expires=86400&X-Amz-Signature=59a0ab98ae9443142036495b2214cc6b59dc78527d5f41a1c9e6810d5994a430&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled (3)](https://user-images.githubusercontent.com/86893209/183793719-85930add-b96f-45fd-8ee7-18acfd770b74.png)
 
 (전) 정상 라벨의 수: 124437, 불량 라벨의 수: 4420
 
-![(후) 정상 라벨의 수: 124437, 불량 라벨의 수: 62218](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a169f957-3ec8-4eec-a7d2-e5d5e5078a5d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220728T071028Z&X-Amz-Expires=86400&X-Amz-Signature=0556a894cee5695b330072ffc146999b381eea504414e78a89950a5f19a2c09d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
-
+![Untitled (4)](https://user-images.githubusercontent.com/86893209/183793733-70b087c6-f252-40c1-9b55-5728f2ad9402.png)
 (후) 정상 라벨의 수: 124437, 불량 라벨의 수: 62218
 
 ### Logistic Regreesion, Decision Tree, Random Forest, XGBoost, LightGBM, Catboost 모델링
@@ -73,7 +72,7 @@
 
 ## ✔️ 결과 해석
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3382039f-2251-4139-ad18-b2d4355e3601/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220728T070958Z&X-Amz-Expires=86400&X-Amz-Signature=3a12b5d0f6f77695ba2594f2ca0376e04972cad5dfcb6d09777d62e5a32ac290&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled (5)](https://user-images.githubusercontent.com/86893209/183793755-48d24220-968c-4707-8cd8-4ec27488fb9c.png)
 
 - Feature 0: 대출자의 연수입
 - Feature 9: 월상환액
@@ -99,20 +98,28 @@
 
 - 변수를 선택하는 과정에서 다중공선성의 문제를 해결하지 못했습니다. 특히 대출의 원금과 이자액은 높은 상관관계를 가지고 있어 변수 간 독립적인 관계가 아니었습니다.
 
-### 시간과 컴퓨터 자원의 한계
-
-- 많은 모델과 하이퍼 파라미터 튜닝 하면서, 모델링 결과를 체계적으로 정리하지 못하였습니다. 또한 Colab 환경의 한정된 자원으로 학습하다보니, 시간이 많이 소요되었고 효율적으로 학습하지 못해서 아쉬움이 남습니다.
-
 ### **대안 신용평가 방안 제안의 어려움**
 
 - 금융이력이 부족한 사람들의 특수성을 고려하여, 기존 금융정보가 아닌 비금융정보로 대안신용평가를 시도해보려 하였습니다. 그러나 개인정보 보호 등으로 데이터 수집이 어려웠고, 전통적인 금융 정보를 활용하였습니다.
 
 # 6️⃣ 배운 점
 
-### 성능을 높이기 위해 다양한 머신러닝 모델과 하이퍼파라미터 튜닝을 시도함
+### 시간과 컴퓨터 자원을 최대한 활용함
 
-- 불균형한 데이터를 오버샘플링해보고, 랜덤포레스트부터 XG부스트까지 다양한 모델을 적용하고 하이퍼파라미터 튜닝까지 머신러닝 엔지니어로서 업무를 경험해볼 수 있었습니다.
+- Colab 환경에서 모델링과 하이퍼 파라미터 튜닝을 하기 위해 최대한 시간을 활용했습니다. 이를 위해 GridSearchCV보다는 RandomSearchCV를 사용하였고, 파라미터를 max_depth. min_samples_leaf, min_samples_split 등으로 한정하였습니다. 이를 통해 아쉬움은 남지만 주어진 시간에서는 최선의 결과물을 만들어냈습니다.
+
+### 불균형한 데이터에 오버샘플링을 시도함
+
+- 일반적인 문제를 풀어내는 다른 데이터들과 달리, 대출 데이터는 대출을 불이행하는 사람의 숫자가 매우 적기 때문에 데이터가 불균형했습니다. 이에 부족한 데이터를 늘려주기 위한 오버샘플링 기법을 시도하고, 성능을 개선시켰습니다.
 
 ### 금융업 머신러닝 모델의 의미를 해석하고 인사이트를 찾아냄
 
 - 금융권에서는 정확성을 높이는 것은 물론, 결과에 대한 판단 근거를 전문가들이 이해할 수 있도록 설명가능한 AI의 중요성에 대해 배웠습니다. 이에 SHAP 밸류를 사용하여 직접 적용해볼 수 있었습니다.
+
+# 7️⃣ 참고
+
+[Lending Club 데이터를 이용한 다분류 기반의 개인신용등급 예측.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e1cb80-48b4-433c-af99-a2e8d891fb35/Lending_Club______.pdf)
+
+[Prediction_of_the_Borrowers_Payback_to_the_Loan_with_Lending_Club_Data.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/027ea01f-ead7-46c9-a5a0-0af2622ade42/Prediction_of_the_Borrowers_Payback_to_the_Loan_with_Lending_Club_Data.pdf)
+
+[개인신용평가 모형을 위한 딥러닝 활용에 대한 연구.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac52d140-e81f-4cea-9874-f39eaa9e318e/______.pdf)
