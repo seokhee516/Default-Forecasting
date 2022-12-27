@@ -58,6 +58,7 @@
 (전) 정상 라벨의 수: 124437, 불량 라벨의 수: 4420
 
 ![Untitled (4)](https://user-images.githubusercontent.com/86893209/183793733-70b087c6-f252-40c1-9b55-5728f2ad9402.png)
+
 (후) 정상 라벨의 수: 124437, 불량 라벨의 수: 62218
 
 ### Logistic Regreesion, Decision Tree, Random Forest, XGBoost, LightGBM, Catboost 모델링
