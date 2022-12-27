@@ -63,13 +63,18 @@
 ### Logistic Regreesion, Decision Tree, Random Forest, XGBoost, LightGBM, Catboost 모델링
 |  | Accuracy | Precision | Recall | F1-Score |
 | --- | --- | --- | --- | --- |
-| Logistic Regreesion | 65.3% | 45.8% | 22.0% | 29.7% |
-| Decision Tree | 74.8% | 57.6% | 92.4% | 71.0% |
-| Random Forest | 89.8% | 78.3% | 96.3% | 86.3% |
-| XGBoost | 88.7% | 76.0% | 96.7% | 85.1% |
-| LightGBM | 58.5% | 44.4% | 97.9% | 61.1% |
-| Catboost | 96.2% | 78.3% | 63.9% | 70.4% |
-
+| Logistic Regreesion | 80.6% | 17.9% | 22.8% | 20.0% |
+| Logistic Regreesion(Oversampling) | 65.3% | 45.8% | 22.0% | 29.7% |
+| Decision Tree | 41.2% | 14.0% | 87.4% | 24.1% |
+| Decision Tree(Oversampling) | 74.8% | 57.6% | 92.4% | 71.0% |
+| Random Forest | 62.4% | 21.8% | 97.5% | 35.7% |
+| Random Forest(Oversampling) | 89.8% | 78.3% | 96.3% | 86.3% |
+| XGBoost | 78.2% | 32.5% | 96.5% | 48.6% |
+| XGBoost(Oversampling) | 88.7% | 76.0% | 96.7% | 85.1% |
+| LightGBM | 35.3% | 13.6% | 94.5% | 23.8% |
+| LightGBM(Oversampling) | 58.5% | 44.4% | 97.9% | 61.1% |
+| Catboost | 35.8% | 13.5% | 92.6% | 23.5% |
+| Catboost(Oversampling) | 96.2% | 78.3% | 63.9% | 70.4% |
 ## 결과 해석
 
 ![Untitled (5)](https://user-images.githubusercontent.com/86893209/183793755-48d24220-968c-4707-8cd8-4ec27488fb9c.png)
@@ -88,7 +93,7 @@
 
 # 결론
 
-모델 해석 결과 월 소득의 기여도가 가장 높았, **월 상환액과 상환된 변제 금액** 또한 높은 기여도를 차지한다.
+모델 해석 결과 월 소득의 기여도가 가장 높았고, **월 상환액과 상환된 변제 금액** 또한 높은 기여도를 차지한다.
 
 ### → ‘거치식 상환’ 대비 ‘원(리)금 상환’과 같은 납부 방식이 대출에 중요한 영향을 미친다
 
