@@ -22,7 +22,7 @@
 
 ## 데이터셋 설명
 
-- `Lending Club 2007-2020Q3` **- Lending Club(렌딩 클럽)**은 미국 유명 **P2P 대출 업체** 입니다.
+- `Lending Club 2007-2020Q3` - Lending Club(렌딩 클럽)은 미국 유명 **P2P 대출 업체** 입니다.
 을 하고 있습니다.  캐글에서 제공하고 있는 데이터세트의 **2019년 데이터를 활용**하여 **2020년 상환상태를 예측**하였습니다.
 - 캐글 주소 - [https://www.kaggle.com/datasets/ethon0426/lending-club-20072020q1](https://www.kaggle.com/datasets/ethon0426/lending-club-20072020q1)
 
