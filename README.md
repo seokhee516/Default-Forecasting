@@ -110,8 +110,8 @@
 
 # 참고
 
-[Lending Club 데이터를 이용한 다분류 기반의 개인신용등급 예측.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e1cb80-48b4-433c-af99-a2e8d891fb35/Lending_Club______.pdf)
+김은미, & 박지영. (2018, May). Lending Club 데이터를 이용한 다분류 기반의 개인신용등급 예측. In KMIS International Conference (pp. 633-637).
 
-[Prediction_of_the_Borrowers_Payback_to_the_Loan_with_Lending_Club_Data.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/027ea01f-ead7-46c9-a5a0-0af2622ade42/Prediction_of_the_Borrowers_Payback_to_the_Loan_with_Lending_Club_Data.pdf)
+Sun, X. (2020, September). Prediction of the Borrowers' Payback to the Loan with Lending Club Data. In 2020 International Conference on Modern Education and Information Management (ICMEIM) (pp. 375-379). IEEE.
 
-[개인신용평가 모형을 위한 딥러닝 활용에 대한 연구.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac52d140-e81f-4cea-9874-f39eaa9e318e/______.pdf)
+이군희, 유영범, & 하승인. (2017). 개인신용평가 모형을 위한 딥러닝 활용에 대한 연구. 대한산업공학회 춘계공동학술대회 논문집, 4042-4047.
