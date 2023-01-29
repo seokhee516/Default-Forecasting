@@ -7,12 +7,13 @@
 
 ## 기술 요소
 ### python
-### Data Preprocessing & EDA
+### Data Preprocessing & Data analysis
 - `Pandas` - 데이터 전처리 및 EDA
 - `SMOTE` - 클래스 불균형 조절을 위한 OverSampling
+- `SHAP` - 특성 기여도 계산 모델 결과 해석
 ### Modeling
 - `Logistic Regreesion`, `Decision Tree`, `Random Forest`, `XGBoost`, `LightGBM`, `Catboost` - 이진 분류 예측 Machine Learning Model
-- `SHAP` - 특성 기여도 계산
+
 ### Database
 - PostgreSQL
 # 프로젝트 구성
