@@ -23,16 +23,38 @@
 - `FastAPI`
 - `Streamlit` : webapp 화면 구성
 
+## 주요 기능
+- 대출자의 정보 입력하면 미상환 확률 예측
+- 예측에 영향을 준 요인 시각화
 
 ## 프로젝트 구성
 
-
+```
+├── app
+|   ├── __main__.py
+|   ├── main.py                             - fastapi backend
+|   ├── models
+|   |   ├── preprocessing_objects.pkl       - 전처리 파일
+|   |   └── rf_model.joblib                 - Random Forest 모델 파일
+|   └── views
+|       └── main_views.py                   - stramlit frontend
+├── data
+|   ├── data.csv                            - 실험용 data
+|   └── make_dataset.py                     - raw 데이터를 DB에 저장
+├── ml
+|   ├── predict_model.py                    - 저장된 모델 검증
+|   ├── train_model.py                      - 모델 train 및 저장
+|   └── utils.py                            - 전처리 함수
+└── notebooks
+    ├── README.md
+    └── experiment.ipynb                    - EDA 및 모델 실험
+```
 ## Version
 ### Version 1.0.0
 - 2021.11 ~ 2021.12
 - Data Extraction and analysis
 - Machine Learning Model Development
-### Version 2.0.0
+### Version 2.0.0 (진행 중)
 - 2023.01 ~ 2023.01
 - Save data in Database
 - Prediction Service API Serving
