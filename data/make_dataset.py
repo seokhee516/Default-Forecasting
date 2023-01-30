@@ -70,7 +70,7 @@ def get_data():
 
 def create_table(db_connect):
     create_table_query = """
-    CREATE TABLE lending (
+    CREATE TABLE IF NOT EXISTS lending (
         id SERIAL PRIMARY KEY,
         annual_inc FLOAT,
         inq_last_6mths FLOAT,
@@ -106,7 +106,6 @@ def create_table(db_connect):
         """
     print(create_table_query)
     with db_connect.cursor() as cur:
-        cur.execute("DROP TABLE IF EXISTS lending")
         cur.execute(create_table_query.format(42))
         db_connect.commit()
 
