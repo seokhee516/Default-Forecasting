@@ -52,12 +52,12 @@
 ## Version
 ### Version 1.0.0
 - 2021.11 ~ 2021.12
-- Data Extraction and analysis
-- Machine Learning Model Development
+- Model Development
+- `notebooks/experiment.ipynb`에 실험 과정 및 결과 기록
 ### Version 2.0.0 (진행 중)
 - 2023.01 ~ 2023.01
-- Save data in Database
-- Prediction Service API Serving
+- PostgreSQL Database
+- Model Deployment
 
 ## 사용방법 
 1. fastapi 실행
