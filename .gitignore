@@ -1,0 +1,3 @@
+data/secret_key.p
+app/__pycache__/
+data/loan.code-workspace
